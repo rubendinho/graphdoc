@@ -30,9 +30,9 @@ export default class NavigationDirectives extends Plugin
       new NavigationUnion(document, graphdocPackage, projectPackage),
       new NavigationObject(document, graphdocPackage, projectPackage),
       new NavigationInput(document, graphdocPackage, projectPackage),
-      new NavigationDirective(document, graphdocPackage, projectPackage),
-      new DocumentSchema(document, graphdocPackage, projectPackage),
-      new RequireByPlugin(document, graphdocPackage, projectPackage)
+      // new NavigationDirective(document, graphdocPackage, projectPackage),
+      new DocumentSchema(document, graphdocPackage, projectPackage)
+      // new RequireByPlugin(document, graphdocPackage, projectPackage)
     ];
   }
 
